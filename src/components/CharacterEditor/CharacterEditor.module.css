@@ -8,6 +8,9 @@
 }
 
 /* TH */
+.characterEditor {
+  height: 80%;
+}
 .perspectiveDecoration {
   position: fixed;
   bottom: 0;
@@ -20,19 +23,43 @@
   display: none;
 }
 
+.controlColumn {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 30px;
+  min-width: fit-content;
+}
+
+.characterWrapper {
+  position: absolute;
+  top: 3%;
+  left: 0;
+  width: 100%;
+}
+
 @media (min-width: 1024px) {
+  .characterEditor {
+    height: auto;
+  }
   .header {
     display: block;
     max-width: 65%;
   }
-}
 
-.characterWrapper {
-  position: fixed;
-  top: 10%;
-  bottom: 0;
-  left: 56%;
-  min-height: 500px;
+  .characterWrapper {
+    position: fixed;
+    top: 10%;
+    bottom: 0;
+    left: 56%;
+    width: auto;
+    min-height: 500px;
+  }
+
+  .controlColumn {
+    display: block;
+  }
 }
 /* TH END */
 
@@ -47,8 +74,4 @@
 .description {
   font-size: 1.25rem;
   margin: 0;
-}
-
-.controlColumn {
-  overflow-x: hidden;
 }

@@ -9,6 +9,8 @@
 /* TH */
 .maxWidthWrapper {
   position: relative;
+  top: 42%;
   z-index: 1;
+  overflow-x: auto;
 }
 /* TH END */

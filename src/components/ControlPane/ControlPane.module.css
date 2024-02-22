@@ -15,16 +15,18 @@
 /* TH */
 .controlPane {
   overflow-x: auto;
+  width: 80%;
 }
 
 @media (min-width: 1024px) {
   .controlPane {
-    max-width: 50%;
+    width: 50%;
   }
 }
 
 .title {
   position: absolute;
+  width: max-content;
 }
 /* TH END */
 
