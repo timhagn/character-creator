@@ -8,12 +8,7 @@
 
 /* TH */
 .maxWidthWrapper {
-  display: flex;
-}
-
-@media (min-width: 1024px) {
-  .maxWidthWrapper {
-    display: block;
-  }
+  position: relative;
+  z-index: 1;
 }
 /* TH END */
