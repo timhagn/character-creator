@@ -12,6 +12,22 @@
   margin-bottom: 32px;
 }
 
+/* TH */
+.controlPane {
+  overflow-x: scroll;
+}
+
+@media (min-width: 1024px) {
+  .controlPane {
+    max-width: 50%;
+  }
+}
+
+.title {
+  position: absolute;
+}
+/* TH END */
+
 .title {
   margin: 0;
   /* Optical centering */

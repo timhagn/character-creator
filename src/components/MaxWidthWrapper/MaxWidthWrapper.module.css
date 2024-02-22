@@ -5,3 +5,15 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+/* TH */
+.maxWidthWrapper {
+  display: flex;
+}
+
+@media (min-width: 1024px) {
+  .maxWidthWrapper {
+    display: block;
+  }
+}
+/* TH END */
